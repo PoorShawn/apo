@@ -257,7 +257,7 @@ function FaultSiteTrace() {
         return (
           <div className="flex flex-col">
             <Button
-              onClick={() => window.open(`#/logs/fault-site?traceId=${traceId}&service=${serviceName}`)}
+              onClick={() => window.open(`#/logs/fault-site?traceId=${encodeURIComponent(traceId)}&service=${encodeURIComponent(serviceName)}`)}
               className="my-1"
               variant="outlined"
               color="primary"
