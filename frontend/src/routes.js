@@ -66,12 +66,13 @@ const baseRoutes = [
     name: <TranslationCom text="dataIntegrationSettings" space={namespace} />,
     element: IntegrationSettings,
   },
-  {
-    path: '/system/config',
-    name: <TranslationCom text="systemConfigName" space={namespace} />,
-    element: SystemConfiguration,
-    hideSystemTimeRangePicker: true,
-  },
+  // deprecated page
+  // {
+  //   path: '/system/config',
+  //   name: <TranslationCom text="systemConfigName" space={namespace} />,
+  //   element: SystemConfiguration,
+  //   hideSystemTimeRangePicker: true,
+  // },
   {
     path: '/system/data-group',
     name: <TranslationCom text="dataGroup" space={namespace} />,

@@ -114,11 +114,12 @@ const _nav = [
         label: <TranslationCom text="userManageName" space={namespace} />,
         to: '/system/user-manage',
       },
-      {
-        key: 'systemConfig',
-        label: '系统配置',
-        to: '/system/config',
-      },
+      // deprecated page
+      // {
+      //   key: 'systemConfig',
+      //   label: '系统配置',
+      //   to: '/system/config',
+      // },
       {
         key: 'dataGroup',
         label: '数据组管理',
